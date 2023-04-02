@@ -1,6 +1,4 @@
-# pihole-with-docker-experimental
-
-# pihole-with-docker
+## pihole-with-docker-experimental
 
 ### Login as root
 ```
