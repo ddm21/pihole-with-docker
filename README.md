@@ -1,4 +1,3 @@
-## pihole-with-docker-experimental
 
 ### Login as root
 ```
