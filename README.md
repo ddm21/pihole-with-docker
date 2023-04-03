@@ -72,8 +72,7 @@ for i in $(seq 1 20); do
 done;
 © 2020 GitHub, Inc.
 ```
- - Change `CHANGE-ME` and `YOUR_PUBLIC_IP_ADDRESS`
- - Chnage TZ as per your region
+ - Change `CHANGE-ME`, `YOUR_PUBLIC_IP_ADDRESS` and `TZ`
  - Change the Script Permission with `chmod u+x pihole.sh`
 
 ### Run the Script
@@ -89,8 +88,7 @@ sudo pihole -a -p
 ```
 
  - Test Pihole Ads Blocker - [d3ward.github.io/toolz/adblock](https://d3ward.github.io/toolz/adblock.html)
- - The Big Blocklist Collection 1 [firebog.net](https://firebog.net/)
- - The Big Blocklist Collection 2 [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
+ - Blocklist Collection [firebog.net](https://firebog.net/) and [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
  
 
 ## Troubleshooting
