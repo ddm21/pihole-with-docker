@@ -46,6 +46,8 @@ docker run -d \
     -p 443:443 \
     -p 8080:8080 \
     -e TZ="Asia/Kolkata" \
+    -e ServerIP="YOUR_PUBLIC_IP_ADDRESS" \
+    -e WEBPASSWORD="CHANGE-ME" \
     -v "$(pwd)/etc-pihole/:/etc/pihole/" \
     -v "$(pwd)/etc-dnsmasq.d/:/etc/dnsmasq.d/" \
     --dns=127.0.0.1 --dns=1.1.1.1 \
