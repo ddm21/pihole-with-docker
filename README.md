@@ -93,10 +93,8 @@ sudo pihole -a -p
    - [thepcspy.com/blockadblock/](https://thepcspy.com/blockadblock/)
  - Blocklist Collection [firebog.net](https://firebog.net/) and [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
  
-
-## Troubleshooting
-
-### To emove Docker Container and Image follow below command
+#
+### To emove Docker Container and Image follow below command (Troubleshooting)
 ```
 docker stop CONTAINER-NAME
 docker rm CONTAINER-NAME
