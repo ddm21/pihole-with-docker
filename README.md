@@ -83,7 +83,7 @@ done;
 ### Change the Default pihole password
 ```
 sudo docker exec -it pihole bash
-sudo -a -p
+sudo pihole -a -p
 ```
 
  - The Big Blocklist Collection 1 [firebog.net](https://firebog.net/)
