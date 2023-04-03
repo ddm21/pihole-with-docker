@@ -88,3 +88,12 @@ sudo -a -p
 
  - The Big Blocklist Collection 1 [firebog.net](https://firebog.net/)
  - The Big Blocklist Collection 2 [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
+ 
+
+### To emove Docker Container and Image follow below command
+```
+docker stop CONTAINER-NAME
+docker rm CONTAINER-NAME
+docker rmi DOCKER -IMAGE
+```
+
