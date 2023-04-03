@@ -94,7 +94,7 @@ sudo pihole -a -p
  - Blocklist Collection [firebog.net](https://firebog.net/) and [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
  
 #
-### To emove Docker Container and Image follow below command (Troubleshooting)
+### To remove Docker Container and Image follow below command (Troubleshooting)
 ```
 docker stop CONTAINER-NAME
 docker rm CONTAINER-NAME
