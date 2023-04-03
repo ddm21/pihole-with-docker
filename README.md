@@ -72,7 +72,7 @@ for i in $(seq 1 20); do
 done;
 © 2020 GitHub, Inc.
 ```
-
+ - Change `CHANGE-ME` and `YOUR_PUBLIC_IP_ADDRESS`
  - Chnage TZ as per your region
  - Change the Script Permission with `chmod u+x pihole.sh`
 
