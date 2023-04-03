@@ -88,6 +88,7 @@ sudo docker exec -it pihole bash
 sudo pihole -a -p
 ```
 
+ - Test Pihole Ads Blocker - [d3ward.github.io/toolz/adblock](https://d3ward.github.io/toolz/adblock.html)
  - The Big Blocklist Collection 1 [firebog.net](https://firebog.net/)
  - The Big Blocklist Collection 2 [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
  
