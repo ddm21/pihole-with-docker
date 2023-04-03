@@ -92,10 +92,16 @@ sudo pihole -a -p
  - The Big Blocklist Collection 2 [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
  
 
+## Troubleshooting
+
 ### To emove Docker Container and Image follow below command
 ```
 docker stop CONTAINER-NAME
 docker rm CONTAINER-NAME
 docker rmi DOCKER -IMAGE
 ```
-
+### Check the Pihole DNS Server IP
+```
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' pihole
+```
+ - The output of the command should have same ip as your server's Public IP.
