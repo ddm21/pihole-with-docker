@@ -31,6 +31,7 @@ change permission of script with `sudo chmod +x docker-install.sh`
 ```
 wget https://raw.githubusercontent.com/theNetworkChuck/NetworkChuck/master/pihole.sh
 ```
+change permission of script with `sudo chmod +x pihole.sh`
 
 ### Or Manually copy from below with latest version
 
