@@ -23,8 +23,9 @@ change `nameserver 8.8.8.8`
 
 ### Install Docker
 ```
-sudo apt install docker.io -y
+wget https://raw.githubusercontent.com/dhruvdalsaniya21/misc-commands/main/docker-install.sh
 ```
+change permission of script with `sudo chmod +x docker-install.sh`
 
 ### Download the Script
 ```
