@@ -64,3 +64,8 @@ docker rmi DOCKER -IMAGE
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' pihole
 ```
  - The output of the command should have same ip as your server's Public IP.
+
+### restart stoped docker container
+```
+docker restart $(docker ps -a -q)
+```
